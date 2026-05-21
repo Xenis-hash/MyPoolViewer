@@ -1,0 +1,576 @@
+row_type,category,subcategory,brand,model,code,parent_codes,flow_rate_m3h_min,flow_rate_m3h_max,power_hp,power_kw,filter_diameter_mm,filtration_area_m2,filtration_velocity_m3hm2,bed_depth_m,max_pressure_bar,salinity_g_l,chlorine_output_g_h,connection_mm,pool_volume_m3_min,pool_volume_m3_max,quantity_rule,notes
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø500,34029-0100,,10,10,,,,0.19,50,1.0,2.5,,,50,,,"Bed depth 1m; Outlet 1.5""",
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø650,34030-0100,,17,17,,,,0.33,50,1.0,2.5,,,50,,,Bed depth 1m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø800,34031-0100,,25,25,,,,0.50,50,1.0,2.5,,,63,,,Bed depth 1m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø950,41187,,36,36,,,,0.70,50,1.0,2.5,,,75,,,Bed depth 1m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø1050,41188,,44,44,,,,0.86,50,1.0,2.5,,,90,,,Bed depth 1m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC Ø1200,41189,,57,57,,,,1.13,50,1.0,2.5,,,110,,,Bed depth 1m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC PLUS Ø650,36053,,17,17,,,,0.33,50,1.2,2.5,,,50,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC PLUS Ø800,36054,,25,25,,,,0.50,50,1.2,2.5,,,63,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC PLUS Ø950,41373,,36,36,,,,0.70,50,1.2,2.5,,,75,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC PLUS Ø1050,36055,,44,44,,,,0.86,50,1.2,2.5,,,90,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,ARTIC PLUS Ø1200,36056,,57,57,,,,1.13,50,1.2,2.5,,,110,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1000 Ø500,58682,,8,8,,,,0.19,40,1.0,2.5,,,50,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1000 Ø650,36676,,13,13,,,,0.33,40,1.0,2.5,,,50,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1000 Ø800,36677,,20,20,,,,0.50,40,1.0,2.5,,,63,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1000 Ø1000,36678,,31,31,,,,0.86,40,1.0,2.5,,,75,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1000 Ø1200,36679,,45,45,,,,1.13,40,1.0,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1200 Ø650,36680,,13,13,,,,0.33,40,1.2,2.5,,,50,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1200 Ø800,36681,,20,20,,,,0.50,40,1.2,2.5,,,63,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1200 Ø1000,36682,,31,31,,,,0.86,40,1.2,2.5,,,75,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,DELTA 1200 Ø1200,36683,,45,45,,,,1.13,40,1.2,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,NORMA Ø650,08142P,,10,10,,,,0.33,30,1.2,2.5,,,90,,,DIN 19605/19643,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,NORMA Ø800,08143P,,15,15,,,,0.50,30,1.2,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,NORMA Ø1000,08144P,,23,23,,,,0.80,30,1.2,2.5,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,NORMA Ø1200,08145P,,33,33,,,,1.13,30,1.2,2.5,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,BEGUR Ø650,66033 126 BEG,,7,10,,,,0.33,20-30,1.2,2.5,,,90,,,Airscouring; DIN,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,BEGUR Ø800,66034 126 BEG,,10,15,,,,0.50,20-30,1.2,2.5,,,110,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,BEGUR Ø1000,66035 126 BEG,,16,23,,,,0.86,20-30,1.2,2.5,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass DIN,AstralPool,BEGUR Ø1200,66036 126 BEG,,23,34,,,,1.13,20-30,1.2,2.5,,,160,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass Large,AstralPool,BLANES Ø1400,66085 126 BLA,,31,46,,,,1.54,20-30,1.2,2.5,,,160,,,Large commercial,
+EQUIPMENT,FILTER,Laminated Fibreglass Large,AstralPool,BLANES Ø1600,66086 126 BLA,,40,60,,,,2.01,20-30,1.2,2.5,,,160,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass Large,AstralPool,BLANES Ø1800,66087 126 BLA,,51,76,,,,2.54,20-30,1.2,2.5,,,200,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass Large,AstralPool,BLANES Ø2000,66088 126 BLA,,63,94,,,,3.14,20-30,1.2,2.5,,,200,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø650,66033 126 TOR,,7,10,,,,0.33,20-30,1.2,2.5,,,80,,,DIN 19643/19605; LVHT cert; NEW 2025,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø800,66034 126 TOR,,10,15,,,,0.50,20-30,1.2,2.5,,,100,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø1000,66035 126 TOR,,13,23,,,,0.86,20-30,1.2,2.5,,,125,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø1200,66036 126 TOR,,23,34,,,,1.13,20-30,1.2,2.5,,,150,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø1400,66085 126 TOR,,31,46,,,,1.54,20-30,1.2,2.5,,,150,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø1600,66086 126 TOR,,40,60,,,,2.01,20-30,1.2,2.5,,,150,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø1800,66087 126 TOR,,51,76,,,,2.54,20-30,1.2,2.5,,,200,,,,
+EQUIPMENT,FILTER,Sprayed Fibreglass DIN,AstralPool,TOR Ø2000,66088 126 TOR,,63,94,,,,3.14,20-30,1.2,2.5,,,200,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø450,15785-0100,,8,8,,,,0.16,50,1.0,2.5,,,50,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø500,19353-0100,,10,10,,,,0.19,50,1.0,2.5,,,50,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø600,15786-0100,,12,12,,,,0.30,50,1.0,2.5,,,50,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø750,15787-0100,,22,22,,,,0.44,50,1.0,2.5,,,63,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø900,15788-0100,,32,32,,,,0.64,50,1.0,2.5,,,75,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø1050,41304,,17,43,,,,0.87,20-50,1.0,2.5,,,75,,,Multi-velocity,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø1200,41307,,22,56,,,,1.13,20-50,1.0,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø1400,41309,,30,77,,,,1.54,20-50,1.0,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø1600,41312,,40,100,,,,2.01,20-50,1.0,2.5,,,110,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø1800,41315,,50,125,,,,2.54,20-50,1.0,2.5,,,125,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,VESUBIO Ø2000,41319,,62,157,,,,3.14,20-50,1.0,2.5,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø1050,20070,,17,43,,,,0.87,20-50,1.0,2.5-4.0,,,63,,,2.5 or 4 bar,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø1200,20068,,22,56,,,,1.13,20-50,1.0,2.5-4.0,,,75,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø1400,21497,,30,77,,,,1.54,20-50,1.0,2.5-4.0,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø1600,21500,,40,100,,,,2.01,20-50,1.0,2.5-4.0,,,110,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø1800,21503,,50,125,,,,2.54,20-50,1.0,2.5-4.0,,,125,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø2000,21507,,62,157,,,,3.14,20-50,1.0,2.5-4.0,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø2350,33820,,87,217,,,,4.34,20-50,1.0,2.5-4.0,,,160,,,Very large,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.0 Ø2500,34302,,100,225,,,,4.91,20-50,1.0,2.5-4.0,,,200,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø1050,31857,,17,43,,,,0.87,20-50,1.2,2.5,,,63,,,Bed depth 1.2m,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø1200,31860,,22,56,,,,1.13,20-50,1.2,2.5,,,75,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø1400,21511,,30,77,,,,1.54,20-50,1.2,2.5,,,90,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø1600,21514,,40,100,,,,2.01,20-50,1.2,2.5,,,110,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø1800,21517,,50,125,,,,2.54,20-50,1.2,2.5,,,125,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø2000,21521,,62,157,,,,3.14,20-50,1.2,2.5,,,140,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø2350,33821,,87,217,,,,4.34,20-50,1.2,2.5,,,160,,,,
+EQUIPMENT,FILTER,Laminated Fibreglass,AstralPool,EUROPE 1.2 Ø2500,34306,,100,225,,,,4.91,20-50,1.2,2.5,,,200,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø1050,00687,,17,43,,,,0.87,20-50,1.0,2.5-6.0,,,63,,,2.5/4/6 bar options,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø1200,00688,,22,56,,,,1.13,20-50,1.0,2.5-6.0,,,75,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø1400,00689,,30,61,,,,1.54,20-50,1.0,2.5-6.0,,,90,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø1600,00690,,40,100,,,,2.01,20-50,1.0,2.5-6.0,,,110,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø1800,00691,,50,125,,,,2.54,20-50,1.0,2.5-6.0,,,125,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø2000,00692,,62,157,,,,3.14,20-50,1.0,2.5-6.0,,,140,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø2500,08695,,100,200,,,,4.91,20-40,1.0,2.5-6.0,,,200,,,,
+EQUIPMENT,FILTER,Bobbin Wound Fibreglass,AstralPool,PRAGA Ø3000,08699,,140,282,,,,7.07,20-40,1.0,2.5-6.0,,,225,,,Special transport required,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI450,442101,,,,,,,,,,,,,,7.3 m2 filtration area; Perlite media,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI600,442102,,,,,,,,,,,,,,14 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI600L,442103,,,,,,,,,,,,,,18 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI800,442104,,,,,,,,,,,,,,25 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI800L,442105,,,,,,,,,,,,,,33 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI1000,442106,,,,,,,,,,,,,,41 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI1200,442108,,,,,,,,,,,,,,58 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI1400,442110,,,,,,,,,,,,,,81 m2 filtration area,,,
+EQUIPMENT,FILTER,Regenerative Media,AstralPool,FMR HI1600,442112,,,,,,,,,,,,,,105 m2 filtration area,,,
+EQUIPMENT,PUMP,Variable Speed,AstralPool,Victoria Plus Silent VS 100,67547,,8,17,,,,,,,,,,,,,Residential; 1-phase 230V; 1400-2750 rpm,
+EQUIPMENT,PUMP,Variable Speed,AstralPool,Victoria Plus Silent VS 200,67548,,11,26,,,,,,,,,,,,,Residential; 1-phase 230V; 1400-2750 rpm,
+EQUIPMENT,PUMP,Variable Speed,AstralPool,Maxim VS 350,73773,,22,55,3.5,2.6,,,,,,,,90,,,,Commercial; 380-460V 3-phase
+EQUIPMENT,PUMP,Variable Speed,AstralPool,Maxim VS 450,73774,,34,83,4.5,3.4,,,,,,,,90,,,,Commercial; 380-460V 3-phase
+EQUIPMENT,PUMP,Variable Speed,AstralPool,Maxim VS 550,73775,,37,99,5.5,4.0,,,,,,,,90,,,,Commercial; 380-460V 3-phase
+EQUIPMENT,PUMP,Variable Speed,AstralPool,VFD VS 2.2,77257,,,,,2.2,,,,,,,,,,,,Stand-alone VFD for Maxim single-speed
+EQUIPMENT,PUMP,Variable Speed,AstralPool,VFD VS 4.0,77258,,,,,4.0,,,,,,,,,,,,Stand-alone VFD; 380-460V
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 50M,65557,,7.5,14.5,0.5,0.38,,,,,,,,,50,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 50T,65558,,7.5,14.5,0.5,0.38,,,,,,,,,50,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 75M,65560,,11,18,0.75,0.56,,,,,,,,,50,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 75T,65561,,11,18,0.75,0.56,,,,,,,,,50,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 100M,65562,,16,23.5,1.0,0.75,,,,,,,,,50,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 100T,65563,,16,23.5,1.0,0.75,,,,,,,,,50,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 150M,65564,,21.5,29,1.5,1.12,,,,,,,,,63,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 150T,65565,,21.5,29,1.5,1.12,,,,,,,,,63,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 200M,65566,,26,33.5,2.0,1.49,,,,,,,,,63,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 200T,65567,,26,33.5,2.0,1.49,,,,,,,,,63,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 300M,65569,,35,41,3.0,2.24,,,,,,,,,75,,,230V 1-phase
+EQUIPMENT,PUMP,Self-Priming,AstralPool,Victoria Plus Silent 300T,65570,,35,41,3.0,2.24,,,,,,,,,75,,,230/400V 3-phase
+EQUIPMENT,PUMP,Self-Priming High Flow,AstralPool,Kivu 3 HP (self-priming),66047,,,,3.0,,,,,,,,,100,,,,1500 rpm; With prefilter; salt-water seal
+EQUIPMENT,PUMP,Self-Priming High Flow,AstralPool,Kivu 4 HP (self-priming),66048,,,,4.0,,,,,,,,,100,,,,1500 rpm; With prefilter
+EQUIPMENT,PUMP,Self-Priming High Flow,AstralPool,Kivu 5.5 HP (self-priming),66049,,,,5.5,,,,,,,,,100,,,,1500 rpm; With prefilter
+EQUIPMENT,PUMP,Centrifugal,AstralPool,Maxim 3.5 HP,08003,,23,56,3.5,,,,,,,,,,,,"3"" threaded; 230/400V 3-phase",
+EQUIPMENT,PUMP,Centrifugal,AstralPool,Maxim 4.5 HP,08004,,30,74,4.5,,,,,,,,,,,,"3"" threaded; 230/400V 3-phase",
+EQUIPMENT,PUMP,Centrifugal,AstralPool,Maxim 5.5 HP,08005,,34,88,5.5,,,,,,,,,,,,"3"" threaded; 230/400V 3-phase",
+EQUIPMENT,PUMP,Centrifugal with Prefilter,AstralPool,Colorado 4 HP,44706-120,,,180,4.0,2.9,,,,,,,,,,,,230/400V 3-phase; 3000 rpm
+EQUIPMENT,PUMP,Centrifugal with Prefilter,AstralPool,Colorado 5.5 HP,44707-120,,,180,5.5,4.0,,,,,,,,,,,,230/400V 3-phase
+EQUIPMENT,PUMP,Centrifugal with Prefilter,AstralPool,Colorado 7.5 HP,44708-120,,,180,7.5,5.5,,,,,,,,,,,,230/400V or 400/690V
+EQUIPMENT,PUMP,Centrifugal with Prefilter,AstralPool,Colorado 10 HP,44710-120,,,180,10.0,7.4,,,,,,,,,,,,
+EQUIPMENT,PUMP,Centrifugal with Prefilter,AstralPool,Colorado 12.5 HP,44712-120,,,180,12.5,9.2,,,,,,,,,,,,
+EQUIPMENT,PUMP,Centrifugal No Prefilter,AstralPool,Colorado NP 4 HP,44714-120,,,180,4.0,2.9,,,,,,,,,,,,No prefilter
+EQUIPMENT,PUMP,Centrifugal No Prefilter,AstralPool,Colorado NP 7.5 HP,44716-120,,,180,7.5,5.5,,,,,,,,,,,,
+EQUIPMENT,PUMP,Centrifugal No Prefilter,AstralPool,Colorado NP 10 HP,44718-120,,,180,10.0,7.4,,,,,,,,,,,,
+EQUIPMENT,PUMP,Centrifugal No Prefilter,AstralPool,Colorado NP 12.5 HP,44720-120,,,180,12.5,9.2,,,,,,,,,,,,
+EQUIPMENT,PUMP,Centrifugal High Flow,AstralPool,Kivu 7.5 HP (centrifugal),56633,,,200,7.5,,,,,,,,,,150,,,"1500 rpm; 6"" inlet"
+EQUIPMENT,PUMP,Centrifugal High Flow,AstralPool,Kivu 10 HP (centrifugal),56635,,,250,10.0,,,,,,,,,,150,,,1500 rpm
+EQUIPMENT,PUMP,Centrifugal High Flow,AstralPool,Kivu 15 HP (centrifugal),56638,,,340,15.0,,,,,,,,,,150,,,1500 rpm
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 3HP,76917,,,51,3.0,2.2,,,,,,,,,,,,Cataphoresis; bronze impeller
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 4HP,76918,,,118,4.0,3.0,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 5.5HP,76920,,,106,5.5,4.0,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 7.5HP,76924,,,152,7.5,5.5,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 10HP,76926,,,185,10.0,7.5,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 3000rpm,AstralPool,Aral Plus C-3000 12.5HP,76927,,,194,12.5,9.2,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 3HP,76905,,,,,,,,,,,,,,,,,1500 rpm; Up to 340 m3/h
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 4HP,76906,,,,4.0,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 5.5HP,76908,,,,5.5,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 7.5HP,76910,,,,7.5,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 10HP,76912,,,,10.0,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 12.5HP,76913,,,,12.5,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 15HP,76914,,,,15.0,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 20HP,76915,,,,20.0,,,,,,,,,,,,,
+EQUIPMENT,PUMP,Cast Iron 1500rpm,AstralPool,Aral Plus C-1500 25HP,76916,,,,25.0,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-50EX,35252,,8,,,,,,,,,5-6,50,,,,"Self-cleaning; Pipe 1.5""; pH/ORP optional",
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-80EX,35253,,14,,,,,,,,,5-6,80,,,,"Pipe 1.5""",
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-120EX,35254,,20,,,,,,,,,5-6,120,63,,,Pipe Flanges D63,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-180EX,35255,,30,,,,,,,,,5-6,180,63,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-300EX,35256,,50,,,,,,,,,5-6,300,63,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Pro-Chlore Salt A-600EX,35257,,100,,,,,,,,,5-6,600,90,,,400V 3-phase,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Low,AstralPool,Nature Salt Plus 50EX/LS,53810,,8,,,,,,,,,2.0-2.5,50,,,,Low salinity 2g/l; Self-cleaning,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Low,AstralPool,Nature Salt Plus 80EX/LS,53811,,14,,,,,,,,,2.0-2.5,80,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Low,AstralPool,Nature Salt Plus 120EX/LS,53812,,20,,,,,,,,,2.0-2.5,120,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Low,AstralPool,Nature Salt Plus 180EX/LS,53813,,30,,,,,,,,,2.0-2.5,180,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Low,AstralPool,Nature Salt Plus 300EX/LS,53814,,50,,,,,,,,,2.0-2.5,300,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt 50,66151,,8,,,,,,,,,5-6,50,,,,Compact,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt 70,53799,,12,,,,,,,,,5-6,70,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt 90,53801,,15,,,,,,,,,5-6,90,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt 180,53803,,30,,,,,,,,,5-6,180,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt Next VC 75,76376,,12,,,,,,,,,5-6,75,,,,Touch screen; Gas sensor; >12000h electrodes,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt Next VC 100,76378,,17,,,,,,,,,5-6,100,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt Next VC 150,76380,,25,,,,,,,,,5-6,150,,,,,
+EQUIPMENT,WATER_TREATMENT,Salt Electrolysis Normal,AstralPool,Easy Salt Next VC 190,76382,,32,,,,,,,,,5-6,190,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis,AstralPool,Neolysis S 50+UV 75W,66142,,8,,,,,,,,,5-6,50,,,,Dual UV+electrolysis; chloramine reduction,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis,AstralPool,Neolysis S 80+UV 90W,66143,,14,,,,,,,,,5-6,80,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis,AstralPool,Neolysis S 120+UV 180W,66144,,20,,,,,,,,,5-6,120,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis,AstralPool,Neolysis S 180+UV 270W,68120,,30,,,,,,,,,5-6,180,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis,AstralPool,Neolysis S 300+UV 360W,68123,,50,,,,,,,,,5-6,300,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis Low,AstralPool,Neolysis LS 50+UV 75W,57753,,8,,,,,,,,,1.5-2.0,50,,,,Low salinity UV+electrolysis,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis Low,AstralPool,Neolysis LS 80+UV 90W,57761,,14,,,,,,,,,1.5-2.0,80,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis Low,AstralPool,Neolysis LS 120+UV 180W,57762,,20,,,,,,,,,1.5-2.0,120,,,,,
+EQUIPMENT,WATER_TREATMENT,UV + Salt Electrolysis Low,AstralPool,Neolysis LS 180+UV 270W,68117,,30,,,,,,,,,1.5-2.0,180,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 50W,52200,,,,,,,,,,,,50,,,,60 mJ/cm2 dose; medium pressure,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 80W,52201,,,,,,,,,,,,80,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 140W,52202,,,,,,,,,,,,140,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 300W,52203,,,,,,,,,,,,300,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 450W,52204,,,,,,,,,,,,450,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection MP,AstralPool,Heliox UV MP 675W,52205,,,,,,,,,,,,675,,,,,
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP SS,AstralPool,Heliox UV LP I45 SS,60344,,30,45,,,,,,,,,,,,,,3x90W; Stainless steel reactor
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP SS,AstralPool,Heliox UV LP I65 SS,60345,,40,65,,,,,,,,,,,,,,4x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP SS,AstralPool,Heliox UV LP I85 SS,60346,,45,85,,,,,,,,,,,,,,5x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP SS,AstralPool,Heliox UV LP I95 SS,60347,,55,95,,,,,,,,,,,,,,6x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P20EX PE,63138,,7,12,,,,,,,,,,,,,,1x90W; Polyethylene reactor
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P25EX PE,63139,,13,20,,,,,,,,,,,,,,2x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P30EX PE,63140,,18,30,,,,,,,,,,,,,,3x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P35 PE,60348,,20,35,,,,,,,,,,,,,,3x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P45 PE,60349,,25,45,,,,,,,,,,,,,,4x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P60 PE,60354,,35,60,,,,,,,,,,,,,,5x90W
+EQUIPMENT,WATER_TREATMENT,UV Disinfection LP PE,AstralPool,Heliox UV LP P70 PE,60358,,40,70,,,,,,,,,,,,,,6x90W
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,AP PR-206 pH/ORP,60359,,,,,,,,,,,,,,,,,AP PR-200; Compatible with all salt chlorinators
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,AP PR-207 pH/Cl2 PPM,60361,,,,,,,,,,,,,,,,,AP PR-200
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,AP PR-204 Cl2 PPM,60362,,,,,,,,,,,,,,,,,AP PR-200
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Control Connect pH/ORP/Temp,71537,,,,,,,,,,,,,,,,,Touchscreen; Fluidra Connect; Poolstation
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Control Connect pH/ORP panel,71538,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Control Connect pH/Cl panel,71539,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Guardian Pool 3 pH/ORP,72703,,,,,,,,,,,,,,,,,"Residential/Commercial; WiFi; 7"" touchscreen"
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Guardian Pool 4 pH/Cl,72702,,,,,,,,,,,,,,,,,Commercial pools
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Guardian Pool 5 pH/ORP/Cl,72704,,,,,,,,,,,,,,,,,Commercial; Temperature sensor included
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Guardian Pool 6 full,72705,,,,,,,,,,,,,,,,,pH/ORP/Cl/Total Cl/NTU
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Controller pH/ORP,66178,,,,,,,,,,,,,,,,,IP65; RS485; All-in-one assembly
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Controller pH/Free Chlorine,66177,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Control & Regulation,AstralPool,Controller pH/ORP/Cl,66176,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Manual 5 l/h,75088,,,5,,,,,,,,,,,,,,PVDF head; Ceramic valve; pH chemical dosing
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Manual 10 l/h,75089,,,10,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Manual 32 l/h,75090,,,32,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Digital 5 l/h,75091,,,5,,,,,,,,,,,,,,Digital display
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Digital 10 l/h,75092,,,10,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos Digital 32 l/h,75093,,,32,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos pH/ORP 5 l/h,75078,,,5,,,,,,,,,,,,,,Built-in pH/ORP control; Fluidra Connect
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos pH/ORP 10 l/h,75080,,,10,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Acqua Dos pH/ORP 32 l/h,75082,,,32,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Optima Next Manual 5 l/h,66164,,,5,,,,,,,,,,,,,,90-265V AC; alphanumeric display
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Optima Next Proportional 5 l/h,66165,,,5,,,,,,,,,,,,,,4-20mA; proportional dosing
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Optima Next pH/Redox 5 l/h,66166,,,5,,,,,,,,,,,,,,pH+ORP control built-in
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Peristaltic Pump 4 l/h,57179,,,4,,,,,,,,,,,,,,90-260V; Installation kit included
+EQUIPMENT,WATER_TREATMENT,Dosing Pump,AstralPool,Peristaltic Pump 12 l/h,57178,,,12,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Chemical Tank,AstralPool,Polyethylene Tank 125L,01314,,,,,,,,,,,,,,,,,For chemical storage with dosing pumps
+EQUIPMENT,WATER_TREATMENT,Chemical Tank,AstralPool,Polyethylene Tank 250L,01315,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Chemical Tank,AstralPool,Polyethylene Tank 350L,01316,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Chemical Tank,AstralPool,Polyethylene Tank 500L,01317,,,,,,,,,,,,,,,,,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN50,71714,,,,,,,,,,,,,50,,,Woltmann turbine; 1 pulse/100L; IP68,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN65,71715,,,,,,,,,,,,,65,,,,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN80,71716,,,,,,,,,,,,,80,,,,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN100,71717,,,,,,,,,,,,,100,,,,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN150,71719,,,,,,,,,,,,,150,,,1 pulse/1000L,
+EQUIPMENT,WATER_TREATMENT,Water Meter,AstralPool,Water Meter DN200,71720,,,,,,,,,,,,,200,,,,
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Power Force Inverter 30,WH000625,,,,,34.9,,,,,,,,10,,,,400V 3-phase; R32; COP 6.5; -15 to 38C
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Power Force Inverter 40,WH000626,,,,,43.9,,,,,,,,10,,,,Max 43.9kW; COP 6.2
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Z950 Inverter 35,WH000627,,,,,42.0,,,,,,,,12,,,,R32; COP 6.3; Titanium exchanger
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Z950 Inverter 45,WH000628,,,,,50.9,,,,,,,,15,,,,
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Z950 Inverter 60,WH000629,,,,,63.5,,,,,,,,20,,,,
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Z950 Inverter 90,WH000630,,,,,101.8,,,,,,,,35,,,,ø75 connections
+EQUIPMENT,HEATING,Heat Pump Full Inverter,Zodiac,Z950 Inverter 120,WH000631,,,,,127.0,,,,,,,,40,,,,
+EQUIPMENT,HEATING,Heat Pump Standard,AstralPool,ProHeat II 35,65542-MOB,,,12,15,,36.2,,,,,,,,,,,R-410A; COP 5.7; 0C min air
+EQUIPMENT,HEATING,Heat Pump Standard,AstralPool,ProHeat II 45,65543-MOB,,,15,25,,44.4,,,,,,,,,,,COP 5.4
+EQUIPMENT,HEATING,Heat Pump Standard,AstralPool,ProHeat II 60,65544-MOB,,,25,35,,63.5,,,,,,,,,,,COP 5.3
+EQUIPMENT,HEATING,Heat Pump Standard,AstralPool,ProHeat II 90,65545-MOB,,,30,50,,91.3,,,,,,,,,,,COP 5.4
+EQUIPMENT,HEATING,Heat Pump Standard,AstralPool,ProHeat II 120,65546-MOB,,,50,70,,125.5,,,,,,,,,,,COP 5.2
+EQUIPMENT,HEATING,Heat Pump Chiller,AstralPool,ProHeat II 35 Chiller,68245-MOB,,,12,15,,36.2,,,,,,,,,,,Heating + Cooling
+EQUIPMENT,HEATING,Heat Pump Chiller,AstralPool,ProHeat II 45 Chiller,68246-MOB,,,15,25,,44.4,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Chiller,AstralPool,ProHeat II 60 Chiller,68247-MOB,,,25,35,,63.5,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Chiller,AstralPool,ProHeat II 90 Chiller,68248-MOB,,,30,50,,91.3,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Chiller,AstralPool,ProHeat II 120 Chiller,68249-MOB,,,50,70,,125.5,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Indoor,AstralPool,ProHeat II IND-35,69649-MOB,,,12,15,,43.6,,,,,,,,,,,Centrifugal fan; ducted installation
+EQUIPMENT,HEATING,Heat Pump Indoor,AstralPool,ProHeat II IND-45,69650-MOB,,,15,25,,44.4,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Indoor,AstralPool,ProHeat II IND-60,69651-MOB,,,25,35,,63.5,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Indoor,AstralPool,ProHeat II IND-90,69652-MOB,,,30,50,,91.3,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Indoor,AstralPool,ProHeat II IND-120,69653-MOB,,,50,70,,125.5,,,,,,,,,,,
+EQUIPMENT,HEATING,Heat Pump Full Inverter,AstralPool,Excellium Inverter 30,75397,,,20,28,,45.0,,,,,,,,,,,R410A; COP 5.6; Reversible; -15C to 38C
+EQUIPMENT,HEATING,Heat Pump Full Inverter,AstralPool,Excellium Inverter 45,75398,,,26,35,,60.0,,,,,,,,,,,COP 5.6
+EQUIPMENT,HEATING,Heat Pump Full Inverter,AstralPool,Excellium Inverter 60,75399,,,37,45,,85.0,,,,,,,,,,,COP 5.8
+EQUIPMENT,HEATING,Heat Pump Full Inverter,AstralPool,Excellium Inverter 90,75400,,,56,70,,130.0,,,,,,,,,,,COP 5.9
+EQUIPMENT,HEATING,Heat Pump Full Inverter,AstralPool,Excellium Inverter 130,75401,,,80,95,,185.0,,,,,,,,,,,COP 5.9
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 4,32535-MOB,,,6,10,,,,,,,,,,,,5,9 Cooling only; +5C min; R-407C
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 6,32536-MOB,,,6,10,,,,,,,,,,,,7,14
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 8,32537-MOB,,,7,12,,,,,,,,,,,,10,20
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 10,32538-MOB,,,7,12,,,,,,,,,,,,13,26
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 15,32540-MOB,,,10,15,,,,,,,,,,,,18,36
+EQUIPMENT,HEATING,Air-to-Water Chiller,AstralPool,Alaska 17,32541-MOB,,,10,15,,,,,,,,,,,,25,50
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 30T,W40TIT30,,,20,30,,30,,,,,,,,50,,,400V 3-phase; 12+18kW staged
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 36T,W40TIT36,,,20,30,,36,,,,,,,,50,,,12+24kW staged
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 42T,W40TIT42,,,20,30,,42,,,,,,,,50,,,18+24kW staged
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 48T,W40TIT48,,,20,30,,48,,,,,,,,50,,,24+24kW staged
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 60T,W40TIT60,,,30,50,,60,,,,,,,,80,,,ø90 connection
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 84T,W40TIT84,,,30,50,,84,,,,,,,,80,,,
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 96T,W40TIT96,,,30,50,,96,,,,,,,,80,,,
+EQUIPMENT,HEATING,Electric Heater,AstralPool,RE/I 120T,W40TIT120,,,30,50,,120,,,,,,,,80,,,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D63,00769,ALL_FILTERS,,,,,,,,,,,,63,,,1 per filter,Butterfly valves; DIN 2501 flanges
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D75,00771,ALL_FILTERS,,,,,,,,,,,,75,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D90,00776,ALL_FILTERS,,,,,,,,,,,,90,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D110,00780,ALL_FILTERS,,,,,,,,,,,,110,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D125,00785,ALL_FILTERS,,,,,,,,,,,,125,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D140,00789,ALL_FILTERS,,,,,,,,,,,,140,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D160,09177,ALL_FILTERS,,,,,,,,,,,,160,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D200,09180,ALL_FILTERS,,,,,,,,,,,,200,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Manual 5V,AstralPool,Manual Manifold 5V D225,09185,ALL_FILTERS,,,,,,,,,,,,225,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D63,00769E,ALL_FILTERS,,,,,,,,,,,,63,,,1 per filter,Electric actuator J+J 80-240V
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D75,00771E,ALL_FILTERS,,,,,,,,,,,,75,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D90,00776E,ALL_FILTERS,,,,,,,,,,,,90,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D110,00780E,ALL_FILTERS,,,,,,,,,,,,110,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D125,00785E,ALL_FILTERS,,,,,,,,,,,,125,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Electric 5V,AstralPool,Electric Manifold 5V D160,09177E,ALL_FILTERS,,,,,,,,,,,,160,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Pneumatic 5V,AstralPool,Pneumatic Manifold 5V D90,00776N,ALL_FILTERS,,,,,,,,,,,,90,,,1 per filter,Pneumatic actuator; NAMUR connection
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Pneumatic 5V,AstralPool,Pneumatic Manifold 5V D110,00780N,ALL_FILTERS,,,,,,,,,,,,110,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Valve Manifold Pneumatic 5V,AstralPool,Pneumatic Manifold 5V D125,00785N,ALL_FILTERS,,,,,,,,,,,,125,,,1 per filter,
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Silica Sand 0.4-0.8mm,SAND-04-08,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg Standard filter sand; per media load table
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Silica Gravel 1-2mm,GRAVEL-1-2,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg Support layer
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Anthracite 0.8-1.6mm,ANTHRACITE,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg Multi-layer top layer
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Grade 1 Glass,GLASS-G1,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg Glass media alt to sand
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Grade 2 Glass,GLASS-G2,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Grade 3 Glass,GLASS-G3,ALL_FILTERS,,,,,,,,,,,,,,,,Per filter spec table kg
+ACCESSORY,FILTER_ACCESSORY,Filter Media,AstralPool,Perlite 13kg (60L),40001,FMR,,,,,,,,,,,,,,,,Per FMR spec Regenerative media for FMR filters
+ACCESSORY,PUMP_ACCESSORY,Strainer Polypropylene 8L,AstralPool,Strainer PP/GF 8L D90/110,09879,CENTRIFUGAL_PUMPS,,,,,,,,,,,,90-110,,,1 per pump,Flanges DIN-2501; 8L capacity
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 33L,AstralPool,Strainer GF 33L D90 37m3h,04656,CENTRIFUGAL_PUMPS,37,37,,,,,,,,,,90,90,,,1 per pump 1.5 bar; Hoop clamp
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 33L,AstralPool,Strainer GF 33L D110 55m3h,04657,CENTRIFUGAL_PUMPS,55,55,,,,,,,,,,110,110,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 33L,AstralPool,Strainer GF 33L D125 72m3h,04658,CENTRIFUGAL_PUMPS,72,72,,,,,,,,,,125,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 33L,AstralPool,Strainer GF 33L D140 90m3h,04659,CENTRIFUGAL_PUMPS,90,90,,,,,,,,,,140,140,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 60L,AstralPool,Strainer GF 60L D160 118m3h,10886,CENTRIFUGAL_PUMPS,118,118,,,,,,,,,,160,160,,,1 per pump 60L capacity
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 60L,AstralPool,Strainer GF 60L D200 184m3h,10887,CENTRIFUGAL_PUMPS,184,184,,,,,,,,,,200,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer Polyester 60L,AstralPool,Strainer GF 60L D225 233m3h,10888,CENTRIFUGAL_PUMPS,233,233,,,,,,,,,,225,225,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 33L,AstralPool,Strainer SG 33L D90,15644,CENTRIFUGAL_PUMPS,37,37,,,,,,,,,,90,90,,,1 per pump Sight glass lid
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 33L,AstralPool,Strainer SG 33L D110,15645,CENTRIFUGAL_PUMPS,55,55,,,,,,,,,,110,110,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 33L,AstralPool,Strainer SG 33L D125,15646,CENTRIFUGAL_PUMPS,72,72,,,,,,,,,,125,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 33L,AstralPool,Strainer SG 33L D140,15647,CENTRIFUGAL_PUMPS,90,90,,,,,,,,,,140,140,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 60L,AstralPool,Strainer SG 60L D160,15650,CENTRIFUGAL_PUMPS,118,118,,,,,,,,,,160,160,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 60L,AstralPool,Strainer SG 60L D200,15651,CENTRIFUGAL_PUMPS,174,174,,,,,,,,,,200,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Strainer with Sight Glass 60L,AstralPool,Strainer SG 60L D225,15652,CENTRIFUGAL_PUMPS,233,233,,,,,,,,,,225,225,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Kivu Strainer 25L,AstralPool,Kivu Strainer DN150 25L,56733,"56633,56634,56635,56637,56638,56639",,,,,,,,,,,,150,150,,,1 per pump For Kivu large centrifugal pumps
+ACCESSORY,PUMP_ACCESSORY,Aral Plus Strainer,AstralPool,Aral Plus Strainer D210 65/65,76936,"76905,76917",,,,,,,,,,,,210,65,,,1 per pump Cast iron; AISI-304 basket; 2 bar
+ACCESSORY,PUMP_ACCESSORY,Aral Plus Strainer,AstralPool,Aral Plus Strainer D210 100/100,76930,"76918,76919,76920,76921",,,,,,,,,,,,210,100,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Aral Plus Strainer,AstralPool,Aral Plus Strainer D250 125/100,76931,"76922,76923,76924,76925",,,,,,,,,,,,250,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Aral Plus Strainer,AstralPool,Aral Plus Strainer D330 150/125,76933,"76926,76910,76911",,,,,,,,,,,,330,150,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Aral Plus Strainer,AstralPool,Aral Plus Strainer D410 200/150,76934,"76912,76913,76914,76915,76916,76927",,,,,,,,,,,,410,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Stainless Steel Strainer,AstralPool,SS Strainer DN100,21461,ALL_LARGE_PUMPS,,,,,,,,,,,,100,100,,,1 per pump AISI-304/316; 3 bar
+ACCESSORY,PUMP_ACCESSORY,Stainless Steel Strainer,AstralPool,SS Strainer DN125,21463,ALL_LARGE_PUMPS,,,,,,,,,,,,125,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Stainless Steel Strainer,AstralPool,SS Strainer DN150,21465,ALL_LARGE_PUMPS,,,,,,,,,,,,150,150,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Stainless Steel Strainer,AstralPool,SS Strainer DN200,21467,ALL_LARGE_PUMPS,,,,,,,,,,,,200,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D50,72655,ALL_PUMPS,,,,,,,,,,,,50,50,,,1 per pump PN10; Between flanges
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D80,71755,ALL_PUMPS,,,,,,,,,,,,80,80,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D100,71756,ALL_PUMPS,,,,,,,,,,,,100,100,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D125,71757,ALL_PUMPS,,,,,,,,,,,,125,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D150,71758,ALL_PUMPS,,,,,,,,,,,,150,150,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Check Valve,AstralPool,Check Valve D200,71759,ALL_PUMPS,,,,,,,,,,,,200,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D50,71747,ALL_PUMPS,,,,,,,,,,,,50,50,,,1 per pump Polychloroprene; PN10; 95C max
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D80,71749,ALL_PUMPS,,,,,,,,,,,,80,80,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D100,71750,ALL_PUMPS,,,,,,,,,,,,100,100,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D125,71751,ALL_PUMPS,,,,,,,,,,,,125,125,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D150,71752,ALL_PUMPS,,,,,,,,,,,,150,150,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Vibration Damper,AstralPool,Vibration Damper D200,71753,ALL_PUMPS,,,,,,,,,,,,200,200,,,1 per pump
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 0.37 kW 1-phase,56515,ALL_FILTERS,80,80,,,,,,,,,,,,,,Filter bed air scouring; 230V 1-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 0.4 kW 3-phase,47178,ALL_FILTERS,80,98,,,,,,,,,,,,,,3-phase; 200-415V
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 0.85 kW 1-phase,47179,ALL_FILTERS,145,175,,,,,,,,,,,,,,230V 1-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 0.85 kW 3-phase,47180,ALL_FILTERS,145,175,,,,,,,,,,,,,,3-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 1.3 kW 1-phase,47181,ALL_FILTERS,210,255,,,,,,,,,,,,,,230V 1-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 1.3 kW 3-phase,47184,ALL_FILTERS,210,255,,,,,,,,,,,,,,3-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 2.2 kW 3-phase,47187,ALL_FILTERS,318,376,,,,,,,,,,,,,,3-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 3.0 kW 3-phase,47188,ALL_FILTERS,318,376,,,,,,,,,,,,,,3-phase
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 5.5 kW 3-phase,31097-2450,ALL_FILTERS,530,620,,,,,,,,,,,,,,3-phase high power
+ACCESSORY,PUMP_ACCESSORY,Air Blower,AstralPool,Blower 7.5 kW 3-phase,31098-2450,ALL_FILTERS,530,620,,,,,,,,,,,,,,3-phase high power
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-50EX Electrode,60634,"35252,35253,35258,35259,45836,45837",,,,,,,,,,,,,,,,Replacement electrode
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-80EX Electrode,60636,"35253,35254,35259,35260,45837,45838",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-120EX Electrode,60676,"35254,35260,45838",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-180EX Electrode,60677,"35255,35261,45839",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-300EX Electrode,60678,"35256,35262,45840",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Pro-Chlore A-600EX Electrode,60679,"35257,35263,45841",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Nature Salt 50EX/LS Electrode,60680,"53810,53815,53820",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Nature Salt 80EX/LS Electrode,60681,"53811,53816,53821",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Nature Salt 120EX/LS Electrode,60682,"53812,53817,53822",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Nature Salt 180EX/LS Electrode,60683,"53813,53818,53823",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt 50/EXT-1 Electrode,68104,"66151,66153",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt 70/EXT-1 Electrode,60685,"53799,53800",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt 90/EXT-1 Electrode,60686,"53801,53802",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt 180/EXT-1 Electrode,60687,"53803,53804",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt Next VC 75 Electrode,76351,"76376,76377",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt Next VC 100 Electrode,76352,"76378,76379",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt Next VC 150 Electrode,76353,"76380,76381",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Chlorinator Electrode,AstralPool,Easy Salt Next VC 190 Electrode,76354,"76382,76383",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis LS 50 Electrode,61119,"57753,57763,57766",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis LS 80 Electrode,61120,"57761,57764,57767",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis LS 120 Electrode,61121,"57762,57765,57768",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis S 50 Electrode,73550,"66142,66145,66148",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis S 80 Electrode,73551,"66143,66146,66149",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis S 120 Electrode,73552,"66144,66147,66150",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis S 180 Electrode,73553,"68120,68121,68122",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Neolysis Electrode,AstralPool,Neolysis S 300 Electrode,73554,"68123,68124,68125",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Lamp,AstralPool,UV LP-25 90W Lamp,60609,"57761,57764,57767,66143,66146,66149,68117-68119,68120-68125,60344-60349,60354,60358,63138-63140",,,,,,,,,,,,,,,,Replacement UV lamp
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Lamp,AstralPool,UV MP 50/80W Lamp,60638,"52200,52201,58808,58809",,,,,,,,,,,,,,,,MP replacement lamp
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Lamp,AstralPool,UV MP 140W Lamp,60639,"52202,58698",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Lamp,AstralPool,UV MP 300/450/675W Lamp,60642,"52203,52204,52205,58810,58699,58811",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Quartz Tube,AstralPool,Quartz Tube MP 50/80/140,60643,"52200,52201,52202,58808,58809,58698",,,,,,,,,,,,,,,,Quartz sleeve replacement
+ACCESSORY,WATER_TREATMENT_ACCESSORY,UV Quartz Tube,AstralPool,Quartz Tube MP 300/450/675,60644,"52203,52204,52205",,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Control Kit,AstralPool,Fluidra Connect Kit,60363,"35252-35257,53810-53814,66151,53799,53801,53803",,,,,,,,,,,,,,,,Optional; connects chlorinator to Fluidra Connect
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Control Kit,AstralPool,TRI Kit Multi-unit Control,70338,"60359,60361,60362,71537-71539",,,,,,,,,,,,,,,,Controls multiple chlorinators from one panel
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,pH/ORP Sensor Holder (EXT-1),57769,"35252-35257,53810-53814,66142-66150,57753-57768",,,,,,,,,,,,,,,,1 per chlorinator Optional sensor holder for EXT-1 control
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,pH Combined Sensor,60648,"60359,60361,71537,71538,66176,66177,66178",,,,,,,,,,,,,,,,1 per controller
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,ORP Sensor,60649,"60359,71537,71538,66176,66178",,,,,,,,,,,,,,,,1 per controller
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,Free Chlorine Sensor,60645,"60361,60362,71539,66175,66176,66177",,,,,,,,,,,,,,,,Amperometric
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,pH Sensor Kit Complete,76209,"75078,75080,75082",,,,,,,,,,,,,,,,6m cable; buffer solutions included
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,Redox Sensor Kit Complete,76210,"75078,75080,75082",,,,,,,,,,,,,,,,6m gold ORP sensor
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Sensor,AstralPool,Water Meter Transmitter,71721,71714-71720,,,,,,,,,,,,,,,,Pulse transmitter cable for water meters
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Calibration,AstralPool,Buffer Solution pH 7.0,60618,ALL_CONTROLLERS,,,,,,,,,,,,,,,,Required for initial setup and maintenance
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Calibration,AstralPool,Buffer Solution pH 4.0,60632,ALL_CONTROLLERS,,,,,,,,,,,,,,,,
+ACCESSORY,WATER_TREATMENT_ACCESSORY,Calibration,AstralPool,Calibration Solution 470mV ORP,60633,ALL_CONTROLLERS,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,WaterHeat EVO TIT 105kW,WH000604,ALL_HEATING,,,,,,,,,,,,,,,,Titanium; 90C primary; For boiler/solar integration
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,WaterHeat EVO TIT 140kW,WH000605,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,WaterHeat EVO TIT 210kW,WH000606,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,WaterHeat EVO TIT 300kW,WH000607,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,WaterHeat EVO TIT 450kW,WH000608,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Unequipped 35,WJ000001,ALL_HEATING,,,,,,,,,,,,,,,,55kW at 90C primary; Plate exchanger titanium
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Unequipped 70,WJ000003,ALL_HEATING,,,,,,,,,,,,,,,,80kW at 90C primary
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Unequipped 120,WJ000005,ALL_HEATING,,,,,,,,,,,,,,,,120kW at 90C primary
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Unequipped 240,WJ000007,ALL_HEATING,,,,,,,,,,,,,,,,240kW at 90C primary
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Plus 35,WJ000002,ALL_HEATING,,,,,,,,,,,,,,,,Fully equipped with digital thermostat
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Plus 70,WJ000004,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Plus 120,WJ000006,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,HEATING_ACCESSORY,Heat Exchanger,AstralPool,Uranus Plus 240,WJ000008,ALL_HEATING,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial EASY 2HP,72272,ALL_PUMPS,,,,,,,,,,,,,,,,Pre-wired control cabinet; Up to 3 pumps
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial EASY 3HP,72271,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial DIRECT 1HP,72720,ALL_PUMPS,,,,,,,,,,,,,,,,Analog inputs; motorized valves; energy meter
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial DIRECT 2HP,72718,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial DIRECT 3HP,72719,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial SMART 3HP,72713,ALL_PUMPS,,,,,,,,,,,,,,,,Soft start; Full commercial features
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial SMART 5.5HP,72714,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial SMART 7.5HP,72715,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go Commercial SMART 10HP,72716,ALL_PUMPS,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go VS 3HP,75491,73773,,,,,,,,,,,,,,,,Variable speed cabinet; Plug & Play
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go VS 5.5HP,75492,73774,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect & Go VS 7.5HP,75493,73775,,,,,,,,,,,,,,,,
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Connect Box,66671,ALL_EQUIPMENT,,,,,,,,,,,,,,,,Fluidra Connect hub; Required for remote control
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,GPIO Module,62368,ALL_EQUIPMENT,,,,,,,,,,,,,,,,Inputs/outputs for standard products
+ACCESSORY,AUTOMATION,Pool Automation,AstralPool,Modbus Temperature Sensor Kit,69682,ALL_EQUIPMENT,,,,,,,,,,,,,,,,For temperature monitoring
+EQUIPMENT,POOL_SHELL,Main Drain,AstralPool,Main Drain Ø75mm,20282,,15,15,,,,,,,,,,75,,,1 per pool min,EN 16582-1 / EN 16713-2 compliant
+EQUIPMENT,POOL_SHELL,Main Drain,AstralPool,Main Drain Ø90mm,20283,,23,23,,,,,,,,,,90,,,1 per pool min,
+EQUIPMENT,POOL_SHELL,Main Drain,AstralPool,Main Drain Ø110mm,20284,,27,27,,,,,,,,,,110,,,1 per pool min,
+EQUIPMENT,POOL_SHELL,Main Drain Large,AstralPool,Main Drain Ø110mm Large,20285,,35,35,,,,,,,,,,110,,,,For larger pools; EN 16582-1
+EQUIPMENT,POOL_SHELL,Main Drain Large,AstralPool,Main Drain Ø125mm Large,20286,,47,47,,,,,,,,,,125,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Large,AstralPool,Main Drain Ø140mm Large,20287,,55,55,,,,,,,,,,140,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Large,AstralPool,Main Drain Ø160mm Large,20288,,79.5,79.5,,,,,,,,,,160,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Large,AstralPool,Main Drain Ø200mm Large,20289,,85,85,,,,,,,,,,200,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM,AstralPool,Norm Main Drain Ø75mm,20282N,,15,15,,,,,,,,,,75,,,1 per pool min,DIN normative; anti-vortex
+EQUIPMENT,POOL_SHELL,Main Drain NORM,AstralPool,Norm Main Drain Ø90mm,20283N,,23,23,,,,,,,,,,90,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM,AstralPool,Norm Main Drain Ø110mm,20284N,,27,27,,,,,,,,,,110,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM Large,AstralPool,Norm Main Drain Ø110mm Large,20285N,,35,35,,,,,,,,,,110,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM Large,AstralPool,Norm Main Drain Ø125mm Large,20286N,,47,47,,,,,,,,,,125,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM Large,AstralPool,Norm Main Drain Ø140mm Large,20287N,,55,55,,,,,,,,,,140,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM Large,AstralPool,Norm Main Drain Ø160mm Large,20288N,,79.5,79.5,,,,,,,,,,160,,,,
+EQUIPMENT,POOL_SHELL,Main Drain NORM Large,AstralPool,Norm Main Drain Ø200mm Large,20289N,,85,85,,,,,,,,,,200,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Anti-Vortex,AstralPool,Main Drain Anti-vortex Ø75mm,22359,,15,15,,,,,,,,,,75,,,,American size; anti-vortex
+EQUIPMENT,POOL_SHELL,Main Drain Anti-Vortex,AstralPool,Main Drain Anti-vortex Ø90mm,22360,,23,23,,,,,,,,,,90,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Anti-Vortex,AstralPool,Main Drain Anti-vortex Ø110mm,22361,,27,27,,,,,,,,,,110,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Anti-Vortex,AstralPool,Main Drain Anti-vortex Ø125mm,22362,,37,37,,,,,,,,,,125,,,,
+EQUIPMENT,POOL_SHELL,Main Drain Prefab,AstralPool,Main Drain Prefab,56378,,,,,,,,,,,,,,,,,ABS; EN 16582-1; for prefab pools
+EQUIPMENT,POOL_SHELL,Main Drain Prefab,AstralPool,Main Drain Prefab Flat,56379,,,,,,,,,,,,,,,,,
+ACCESSORY,POOL_SHELL,Main Drain Grille,AstralPool,Main Drain Grille 415x415mm,25344,"22359,22360,22361,22362,20282,20283,20284",,,,,,,,,,,,,,1 per drain,EN 16582-1 compliant cover,
+ACCESSORY,POOL_SHELL,Main Drain Grille,AstralPool,Main Drain Grille 570x570mm,28556,"20285,20286,20287,20288,20289,28709,28710,28711,28712",,,,,,,,,,,,,,1 per drain,,
+EQUIPMENT,POOL_SHELL,Return Inlet Wall,AstralPool,Return Inlet/Suction Nozzle ABS,41520,,26,26,,,,,,,,,,,,,,EN 16582-1; large flows; concrete pools
+EQUIPMENT,POOL_SHELL,Return Inlet Wall,AstralPool,Norm Return Inlet Concrete,56498,,,,,,,,,,,,,,,,,DIN normative; threaded; concrete pools
+EQUIPMENT,POOL_SHELL,Return Inlet Floor,AstralPool,Floor Return Inlet White,00303,,2.3,2.3,,,,,,,,,,63,,,,Max 2.3 m3/h; Ø63mm PN6
+EQUIPMENT,POOL_SHELL,Return Inlet Floor,AstralPool,Floor Return Inlet SS Grille,08317,,26,26,,,,,,,,,,,,,,EN 13451-1; AISI-304 grille
+EQUIPMENT,POOL_SHELL,Return Inlet Floor,AstralPool,Floor Return Inlet ABS Grille,11796,,26,26,,,,,,,,,,,,,,White ABS grille
+EQUIPMENT,POOL_SHELL,Return Inlet Floor,AstralPool,Floor Return Inlet Large,22353,,,,,,,,,,,,,,,,,DIN normative; liner/fibreglass pools
+EQUIPMENT,POOL_SHELL,Suction Inlet,AstralPool,Suction Inlet,00302,,,,,,,,,,,,,,,,,Wall suction nozzle
+EQUIPMENT,POOL_SHELL,Return Inlet Adjustable,AstralPool,Adjustable Return Inlet 2inch,00312,,21,21,,,,,,,,,,2,,,,"Max 21 m3/h; 2"" inner thread"
+EQUIPMENT,POOL_SHELL,Return Inlet Adjustable,AstralPool,Adjustable Return Inlet 3inch,00313,,40,40,,,,,,,,,,3,,,,"Max 40 m3/h; 3"" inner thread"
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille SS,AstralPool,SS Overflow Drain Grille 200x200,00284,,15,15,,,,,,,,,,,,,,Stainless steel; 0.5 m/s velocity
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille SS,AstralPool,SS Overflow Drain Grille 300x300,00285,,43,43,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille SS,AstralPool,SS Overflow Drain Grille 400x400,00286,,83,83,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille SS,AstralPool,SS Overflow Drain Grille 500x500,00287,,136,136,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille ABS,AstralPool,ABS Overflow Drain Grille 200x200,30764,,15,15,,,,,,,,,,,,,,ABS version
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille ABS,AstralPool,ABS Overflow Drain Grille 300x300,30765,,43,43,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille ABS,AstralPool,ABS Overflow Drain Grille 400x400,30766,,83,83,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Drain Grille ABS,AstralPool,ABS Overflow Drain Grille 500x500,30767,,136,136,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Straight 195mm,05581,,,,,,,,,,,,,,,,,PP; h24mm; 200mm tile; longitudinal
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Straight 245mm,05582,,,,,,,,,,,,,,,,,PP; h24mm; 250mm tile
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Straight 295mm,05583,,,,,,,,,,,,,,,,,PP; h24mm; 300mm tile
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Straight 345mm,05584,,,,,,,,,,,,,,,,,PP; h24mm; 350mm tile
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Curved 1m r195mm,08001,,,,,,,,,,,,,,,,,PP curved; radius 1m; 200mm tile
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille Curved 1m r295mm,08002,,,,,,,,,,,,,,,,,PP curved; radius 1m; 300mm tile
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille 0.5m Longitudinal,28664,,,,,,,,,,,,,,,,,500mm module; male-female assembly; h22mm
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille h22 195mm,34190,,,,,,,,,,,,,,,,,Flexible PP; UV resistant
+EQUIPMENT,POOL_SHELL,Overflow Grille Channel,AstralPool,Overflow Channel Grille h22 245mm,34191,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Overflow 1000 Ladder 2-step,07514,,,,,,,,,,,,,,,,,AISI-316L; Luxe steps; EN 13451-1/2
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Overflow 1000 Ladder 3-step,07515,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Overflow 1000 Ladder 4-step,07516,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Overflow 1000 Ladder 5-step,07517,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Standard Pool Ladder 2-step,32653,,,,,,,,,,,,,,,,,AISI-316L bright satin; Ø43mm handrail
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Standard Pool Ladder 3-step,32654,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Standard Pool Ladder 4-step,32655,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder,AstralPool,Standard Pool Ladder 5-step,32656,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 3-step,64894,,,,,,,,,,,,,,,,,Non-slip punching; disabled access; EN 13451
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 4-step,64895,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 5-step,64896,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 6-step,64897,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 7-step,64898,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Ladder PMR,AstralPool,PMR Public Ladder 8-step,64899,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Exit Grab Rails - Plate Fixed,05541,,,,,,,,,,,,,,,,,Set of 2; AISI-316L Ø43mm; Ø43mm pipe
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Exit Grab Rails - Embedded,05540,,,,,,,,,,,,,,,,,Set of 2; for embedding in concrete
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Exit Grab Rails Short - Plate,05542,,,,,,,,,,,,,,,,,Set of 2; compact model
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Parallel Grab Rail,00110,,,,,,,,,,,,,,,,,Parallel model; for anchoring code 00143
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Asymmetrical Grab Rail,00111,,,,,,,,,,,,,,,,,Asymmetrical model
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Grab Rail Fixed 1220mm,00034,,,,,,,,,,,,,,,,,Set of 2; fixed in and out of water; L=1220mm
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Grab Rail Fixed 1524mm,00035,,,,,,,,,,,,,,,,,Set of 2; L=1524mm
+EQUIPMENT,POOL_SURROUND,Grab Rail,AstralPool,Grab Rail Out of Water Embedded,07780,,,,,,,,,,,,,,,,,For embedding; out of water only
+EQUIPMENT,POOL_SURROUND,Anchoring Socket,AstralPool,Anchoring Socket Ø43mm,00042,,,,,,,,,,,,,,,,,For Ø43mm pipe; pack of 50
+EQUIPMENT,POOL_SURROUND,Anchoring Socket,AstralPool,Articulated Socket Ø43mm,00045,,,,,,,,,,,,,,,,,Adjustable angle; plastic; for liner pools
+EQUIPMENT,POOL_SURROUND,Anchoring Socket,AstralPool,Removable Anchoring Socket,00143,,,,,,,,,,,,,,,,,Removable; for handrails and grab rails
+EQUIPMENT,POOL_SURROUND,Handrail,AstralPool,Stainless Handrail 0.5m,00051,,,,,,,,,,,,,,,,,AISI-316L; Ø43mm; Set of 2
+EQUIPMENT,POOL_SURROUND,Handrail,AstralPool,Stainless Handrail 1m,00052,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Handrail,AstralPool,Stainless Handrail 2m,00053,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Handrail,AstralPool,Stainless Handrail 2.5m,00054,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Steps Stair,AstralPool,Stair 4-step,00116,,,,,,,,,,,,,,,,,Stainless steel stair platform; built-in
+EQUIPMENT,POOL_SURROUND,Steps Stair,AstralPool,Stair 5-step,00117,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Steps Stair,AstralPool,Stair 6-step,00118,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Steps Stair,AstralPool,Stair 7-step,00119,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Steps Stair,AstralPool,Stair 8-step,00120,,,,,,,,,,,,,,,,,
+EQUIPMENT,POOL_SURROUND,Shower,AstralPool,Shower with Timer 4 Heads,59779,,,,,,,,,,,,,,,,,AISI-304L; high footfall; public pools
+EQUIPMENT,POOL_SURROUND,Shower,AstralPool,Shower Tunnel 3 Heads 1.2m,00100,,,,,,,,,,,,,,,,,Arch tunnel; 1.2m width; mandatory entry shower
+EQUIPMENT,POOL_SURROUND,Shower,AstralPool,Shower Tunnel 5 Heads 2m,19948,,,,,,,,,,,,,,,,,2m width
+EQUIPMENT,POOL_SURROUND,Shower,AstralPool,Shower Control Column Photoelectric,00102,,,,,,,,,,,,,,,,,220V/24V transformer; photoelectric timer; electro valve
+EQUIPMENT,POOL_SURROUND,Footbath,AstralPool,Outdoor Footbath Blue,21255,,,,,,,,,,,,,,,,,Mandatory at pool entry; disinfectant bath
+EQUIPMENT,POOL_SURROUND,Life Saving,AstralPool,Lifebuoy Ø700mm,19973,,,,,,,,,,,,,,,,,Styropor/orange canvas; mandatory for public pools
+EQUIPMENT,POOL_SURROUND,Life Saving,AstralPool,Lifebuoy Holder Post,01371,,,,,,,,,,,,,,,,,Post-mounted holder for lifebuoy
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi Connect White 2750lm,76600,,,,,,,,,,,,,,,,,12VAC; 27W; 2750lm; RGB/W/WW available; Fluidra App
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi Connect WW 2750lm,76600WW,,,,,,,,,,,,,,,,,Warm white 3000K
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi Connect TW 2750lm,76600TW,,,,,,,,,,,,,,,,,Tunable White 2500-6000K
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi Connect RGB 2750lm,76600M,,,,,,,,,,,,,,,,,Multicolor RGB
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi Connect RGBW 2750lm,76600MW,,,,,,,,,,,,,,,,,Multicolor RGB + White
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi P&P RGB 2000lm,76579M,,,,,,,,,,,,,,,,,Plug & Play; 34.5W; 2000lm; 12VAC
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi On/Off White 4300lm,71233,,,,,,,,,,,,,,,,,32W; 4300lm; 12VAC
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi On/Off White 2750lm,76573,,,,,,,,,,,,,,,,,28W; 2750lm; 12VAC
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus Flexi On/Off DC White 4300lm,71202,,,,,,,,,,,,,,,,,32W; 4300lm; 24VDC
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus FlexiMini Stairs White 450lm,74400,,,,,,,,,,,,,,,,,3.5W; 450lm; 12VAC; stair lighting
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus FlexiMini Wall White 900lm,74406,,,,,,,,,,,,,,,,,7.2W; 900lm; 12VAC; wall lighting
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus FlexiMini P&P Stairs RGB 300lm,76588M,,,,,,,,,,,,,,,,,Plug & Play; 4W; 300lm; stairs
+EQUIPMENT,POOL_LIGHTING,LED Underwater,AstralPool,LumiPlus FlexiMini P&P Wall RGB 600lm,76589M,,,,,,,,,,,,,,,,,Plug & Play; 8W; 600lm; wall
+EQUIPMENT,POOL_LIGHTING,LED Underwater,Zodiac,NL Nicheless LED,WT000233,,,,,,,,,,,,,,,,,No niche required; quick install; surface mount
+EQUIPMENT,POOL_LIGHTING,LED Underwater,Zodiac,NL Nicheless LED WW,WT000234,,,,,,,,,,,,,,,,,Warm white version
+EQUIPMENT,POOL_LIGHTING,LED Underwater,Zodiac,NL Nicheless LED RGB,WT000235,,,,,,,,,,,,,,,,,RGB version
+ACCESSORY,POOL_LIGHTING,Niche 230mm,AstralPool,Niche 230mm Concrete No Insert,00349,"76600,76579M,71233,76573,71202,76582M,76584M,76586M",,,,,,,,,,,,,,1 per light,ABS; for FlexiNiche and PAR56 projectors,
+ACCESSORY,POOL_LIGHTING,Niche 230mm,AstralPool,Niche 230mm Liner With Insert,17805,"76600,76579M,71233,76573",,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Niche 230mm,AstralPool,Niche 230mm Fibreglass With Insert,00364,"76600,76579M,71233,76573",,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Niche 230mm,AstralPool,Niche 230mm Panel With Insert,23671,"76600,76579M,71233",,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Niche 180mm,AstralPool,Niche 180mm Concrete No Insert,00355,"76600,76579M",,,,,,,,,,,,,,1 per light,ABS; for FlexiNiche and Design projectors,
+ACCESSORY,POOL_LIGHTING,Niche 180mm,AstralPool,Niche 180mm Fibreglass No Insert,00367,76600,,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Niche 180mm,AstralPool,Niche 180mm Liner With Insert,00369,76600,,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Mini Niche,AstralPool,Mini Niche Concrete,53956,"74400,74406,76588M,76589M",,,,,,,,,,,,,,1 per light,For FlexiMini projectors,
+ACCESSORY,POOL_LIGHTING,Mini Niche,AstralPool,Mini Niche Liner/Fibreglass,59983,"74400,74406,76588M,76589M",,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,SS Niche,AstralPool,SS Niche Concrete,59813,"76600,71233",,,,,,,,,,,,,,1 per light,AISI-316L; for full SS projectors,
+ACCESSORY,POOL_LIGHTING,SS Niche,AstralPool,SS Niche Liner/Fibreglass,59814,"76600,71233",,,,,,,,,,,,,,1 per light,,
+ACCESSORY,POOL_LIGHTING,Connection Box,AstralPool,Connection Box White,75972,ALL_LIGHTS,,,,,,,,,,,,,,1 per circuit,Cable conduit connection box,
+ACCESSORY,POOL_LIGHTING,Connection Box,AstralPool,Connection Box Standard,00393,ALL_LIGHTS,,,,,,,,,,,,,,1 per circuit,,
+ACCESSORY,POOL_LIGHTING,Transformer,AstralPool,Transformer 130VA 230V-12V,00383-4146,ALL_LIGHTS,,,,,,,,,,,,,,1 per circuit,IP-20; UNE-EN-61558-2-6; 230V to 12VAC,
+ACCESSORY,POOL_LIGHTING,Transformer,AstralPool,Transformer 300VA 230V-12V,71436,ALL_LIGHTS,,,,,,,,,,,,,,1 per circuit,,
+ACCESSORY,POOL_LIGHTING,Transformer,AstralPool,Transformer 600VA 230V-12V,00385-4146,ALL_LIGHTS,,,,,,,,,,,,,,1 per circuit,,
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan Touch 2mm 1.65x21m,35517501F,,,,,,,,,,,,,,,,,2mm reinforced membrane; 3D embossed; strongest market
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan 2000 Reinforced Membrane,35517402F,,,,,,,,,,,,,,,,,Standard 2000 range; various colours
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan Ceramics 1.65x21m,356127202F,,,,,,,,,,,,,,,,,Mosaic appearance; 2mm; watertightness guaranteed
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan Vogue Reinforced,81020001F,,,,,,,,,,,,,,,,,New reinforced; 2mm thick; strongest/most resistant
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan ALIVE Collection,35117101F,,,,,,,,,,,,,,,,,ALIVE collection; 3 colours (Green/Blue/Grey)
+EQUIPMENT,POOL_LINING,Reinforced Liner,Renolit,Alkorplan 3000 Membrane,35517603F,,,,,,,,,,,,,,,,,3000 range; lacquered multi-layer protection
+EQUIPMENT,POOL_LINING,UNI Membrane,AstralPool,AstralPool UNI Basic,UNI-BASIC,,,,,,,,,,,,,,,,,Entry range liner membrane
+EQUIPMENT,POOL_LINING,UNI Membrane,AstralPool,AstralPool UNI Plus,UNI-PLUS,,,,,,,,,,,,,,,,,Premium UNI membrane
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorplus Seam Sealer Light Grey,81029001F,ALL_LINERS,,,,,,,,,,,,,,Per pool,Liquid PVC for sealing joints; 1L tin,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorplan Geotextile 1.65m,81006006F,ALL_LINERS,,,,,,,,,,,,,,Per pool m2,400g/m2 protective underlay; fungicide treated,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorplan Geotextile 2.00m,81006007F,ALL_LINERS,,,,,,,,,,,,,,Per pool m2,,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorplan Lane Marker Rail Band,81113F25F,ALL_LINERS,,,,,,,,,,,,,,Per lane,25m x 0.25m black bands for lane marking,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Skimmer Adaptor for Liner,SKIMMER-ADAPTOR,ALL_LINERS,,,,,,,,,,,,,,1 per skimmer,Liner seal to skimmer,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorclean Waterline Degreaser,81026001F,ALL_LINERS,,,,,,,,,,,,,,Per pool,Waterline maintenance cleaner,
+ACCESSORY,POOL_LINING,Liner Accessory,Renolit,Alkorplan Adhesive 5L,81045001F,ALL_LINERS,,,,,,,,,,,,,,Per pool,Environmentally friendly PVC adhesive,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 8 l/h,W28CAE8,,,,,,,,,,,,,,,,8,Ducted; for indoor pools; Hygro Control; wall-mounted
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 10 l/h,W28CAE10,,,,,,,,,,,,,,,,10,1-phase; 230V; vertical ducted installation
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 13.5 l/h,W28CAE13,,,,,,,,,,,,,,,,13.5,3-phase 400V; largest CAE model
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 8 l/h + Water Condenser,W28CAE8C,,,,,,,,,,,,,,,,8,With water condenser option
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 10 l/h + Water Condenser,W28CAE10C,,,,,,,,,,,,,,,,10,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 13.5 l/h + Water Condenser,W28CAE13C,,,,,,,,,,,,,,,,13.5,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 8 l/h + Electric Heat 9kW,W28CAE8E,,,,,,,,,,,,,,,,8,Electric heating option
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 10 l/h + Electric Heat 9kW,W28CAE10E9,,,,,,,,,,,,,,,,10,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 13.5 l/h + Electric Heat 9kW,W28CAE13E9,,,,,,,,,,,,,,,,13.5,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 8 l/h + Hot Water Coil 23kW,W28CAE8B,,,,,,,,,,,,,,,,8,Hot water coil; connects to heating system
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 10 l/h + Hot Water Coil 35kW,W28CAE10B,,,,,,,,,,,,,,,,10,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted,Zodiac,CAE Dehumidifier 13.5 l/h + Hot Water Coil 41kW,W28CAE13B,,,,,,,,,,,,,,,,13.5,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 10 l/h,W28OM10,,,,,,,,,,,,,,,,10,5 capacities; 10-20 l/h; ducted; Hygro Control
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 14 l/h,W28OM14,,,,,,,,,,,,,,,,14,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 16 l/h,W28OM16,,,,,,,,,,,,,,,,16,3-phase 400V
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 20 l/h,W28OM20,,,,,,,,,,,,,,,,20,Largest OMEGA
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 10 l/h + Water Condenser,W28OM10C,,,,,,,,,,,,,,,,10,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 14 l/h + Water Condenser,W28OM14C,,,,,,,,,,,,,,,,14,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 16 l/h + Water Condenser,W28OM16C,,,,,,,,,,,,,,,,16,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 20 l/h + Water Condenser,W28OM20C,,,,,,,,,,,,,,,,20,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 10 l/h + Hot Water Coil,W28OM10B,,,,,,,,,,,,,,,,10,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 14 l/h + Hot Water Coil,W28OM14B,,,,,,,,,,,,,,,,14,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 16 l/h + Hot Water Coil,W28OM16B,,,,,,,,,,,,,,,,16,
+EQUIPMENT,DEHUMIDIFICATION,Dehumidifier Indoor Ducted Large,Zodiac,OMEGA Dehumidifier 20 l/h + Hot Water Coil,W28OM20B,,,,,,,,,,,,,,,,20,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,Hygro Control Unit,HYGRO-CTRL,ALL_DEHUMIDIFIERS,,,,,,,,,,,,,,1 per system,Wall-mounted humidity/temperature controller,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,CAE Extractor Left,W28REGA,"W28CAE8,W28CAE10,W28CAE13",,,,,,,,,,,,,,1,Frame + filter; left-hand extraction,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,CAE Extractor Right,W28REDR,"W28CAE8,W28CAE10,W28CAE13",,,,,,,,,,,,,,1,Frame + filter; right-hand extraction,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,CAE Rear Blower,W28SOAR,"W28CAE8,W28CAE10,W28CAE13",,,,,,,,,,,,,,1,Rear blower frame,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,CAE Front Blower,W28SOAV,"W28CAE8,W28CAE10,W28CAE13",,,,,,,,,,,,,,1,Front blower frame,
+ACCESSORY,DEHUMIDIFICATION,Dehumidifier Accessory,Zodiac,OMEGA Top Blower,W28SODE,"W28OM10,W28OM14,W28OM16,W28OM20",,,,,,,,,,,,,,1,Top-mounted blower,
+EQUIPMENT,CLEANING,Pool Robot Commercial,AstralPool,Vortrax TRX 8500 iQ,WR000597,,,,,,,,,,,,,,,,,Brushless motor; Sensor Nav; public pools ≤20m; Floor/walls/waterline
+EQUIPMENT,CLEANING,Pool Robot Commercial,AstralPool,Vortrax TRX 8700 iQ,WR000598,,,,,,,,,,,,,,,,,Public pools ≤25m; Bluetooth remote; 30m cable
+EQUIPMENT,CLEANING,Pool Robot Commercial,AstralPool,Arco,WR000396,,,,,,,,,,,,,,,,,Infrared sensor; gyroscope; public pools ≤30m; Floor/walls
+EQUIPMENT,CLEANING,Pool Robot Commercial,AstralPool,Arcomax,WR000397,,,,,,,,,,,,,,,,,Heavy-duty; public pools ≤50m; Floor/walls; 40m cable; 80cm cleaning width
