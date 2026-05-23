@@ -1,5 +1,5 @@
 """MyPoolViewer — Phase 5 PDF Report (dark blueprint theme), 6 pages"""
-import io, sys, os, math
+import io, sys, os, math, math
 from datetime import datetime
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
@@ -137,15 +137,211 @@ def _cover(inp,result,s):
     story.append(PageBreak()); return story
 
 def _blueprint_page(inp,result,s):
-    from blueprint import generate_svg
-    import cairosvg
-    story=[Spacer(1,10*mm),Paragraph("Pool Blueprint",s["h2"]),
-           Paragraph("Top-down annotated plan with pool components and engine room",s["muted"]),
-           _hr(0.4),Spacer(1,3*mm)]
-    svg_str=generate_svg(inp,result)
-    png=cairosvg.svg2png(bytestring=svg_str.encode("utf-8"),output_width=1260,output_height=810)
-    img=RLImage(io.BytesIO(png),width=TW,height=TW*810/1260)
-    story.append(img); story.append(PageBreak()); return story
+    """Render blueprint using matplotlib (no system Cairo library needed)."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    import matplotlib.patches as mpatches
+    from matplotlib.patches import FancyArrowPatch
+    import numpy as np
+
+    # Colours
+    BG_C    = '#0a0e1a'
+    POOL_C  = '#0d3756'
+    WATER_C = '#0e5080'
+    EDGE_C  = '#4dd9ec'
+    GOLD_C  = '#c9a84c'
+    MUTED_C = '#6b7fa3'
+    ER_C    = '#0f1628'
+    ER_EDG  = '#6b7fa3'
+    DRAIN_C = '#1a8fa0'
+    LIGHT_C = '#f0e860'
+    WHITE_C = '#f0f4f8'
+
+    pw = inp.width_m
+    pl = inp.length_m
+    er_area = result.engine_room_m2
+    er_d = max(2.5, (er_area / 1.5) ** 0.5)
+    er_w = er_area / er_d
+    gap  = 1.2
+
+    fig_w = 14; fig_h = fig_w * 810 / 1260
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    fig.patch.set_facecolor(BG_C)
+    ax.set_facecolor(BG_C)
+
+    # Pool body
+    pool_rect = mpatches.Rectangle((0, 0), pw, pl, linewidth=2,
+        edgecolor=EDGE_C, facecolor=WATER_C)
+    ax.add_patch(pool_rect)
+
+    # Water shimmer lines
+    for i in range(1, 5):
+        ax.axhline(pl * i / 5, xmin=0, xmax=pw/ax.get_xlim()[1] if ax.get_xlim()[1] else 1,
+                   color=EDGE_C, alpha=0.15, linewidth=0.5)
+
+    # Pool label
+    ax.text(pw/2, pl/2, 'POOL\n' + f'{result.volume_m3:.0f} m3',
+            ha='center', va='center', color=EDGE_C, fontsize=9,
+            alpha=0.5, fontweight='bold')
+
+    # Depth label
+    ax.text(pw/2, pl*0.35, f'depth {inp.depth_m:.1f} m',
+            ha='center', va='center', color=MUTED_C, fontsize=7, alpha=0.6)
+
+    # Main drains (floor)
+    n_drains = len(result.main_drains)
+    for i in range(n_drains):
+        dx = pw * (0.35 + i * 0.3)
+        dy = pl * 0.75
+        circle = plt.Circle((dx, dy), 0.18, color=DRAIN_C, zorder=3)
+        ax.add_patch(circle)
+        ax.plot([dx-0.14, dx+0.14], [dy, dy], color=EDGE_C, linewidth=0.8, zorder=4)
+        ax.plot([dx, dx], [dy-0.14, dy+0.14], color=EDGE_C, linewidth=0.8, zorder=4)
+    if n_drains:
+        ax.text(pw*0.35, pl*0.75 - 0.35, f'DRAIN x{n_drains}',
+                ha='center', va='top', color=DRAIN_C, fontsize=6.5)
+
+    # Return inlets (walls)
+    n_inlets = len(result.return_inlets)
+    n_per = max(1, n_inlets // 2)
+    for i in range(n_per):
+        yp = pl * 0.2 + (pl * 0.6) * i / max(n_per - 1, 1)
+        for xp in [0.1, pw - 0.1]:
+            rect = mpatches.Rectangle((xp-0.12, yp-0.1), 0.24, 0.2,
+                linewidth=1, edgecolor=EDGE_C, facecolor='#34b5cc', zorder=3)
+            ax.add_patch(rect)
+    if n_inlets:
+        ax.text(0.1, pl*0.2 - 0.35, f'INLET x{n_inlets}',
+                ha='center', va='top', color='#34b5cc', fontsize=6.5)
+
+    # Lights
+    n_lights = len(result.lighting)
+    n_ps = max(1, n_lights // 2)
+    for i in range(n_ps):
+        ly = pl * 0.2 + (pl * 0.5) * i / max(n_ps - 1, 1)
+        for lx in [pw * 0.08, pw * 0.92]:
+            circle = plt.Circle((lx, ly), 0.15, color=LIGHT_C, zorder=3, alpha=0.9)
+            ax.add_patch(circle)
+    if n_lights:
+        ax.text(pw*0.08, pl*0.2 - 0.35, f'LIGHT x{n_lights}',
+                ha='center', va='top', color=LIGHT_C, fontsize=6.5)
+
+    # Skimmer
+    if inp.pool_type == 'skimmer':
+        sk = mpatches.Rectangle((pw*0.4, -0.25), pw*0.2, 0.25,
+            linewidth=1.5, edgecolor=EDGE_C, facecolor='#2a7fa0', zorder=3)
+        ax.add_patch(sk)
+        ax.text(pw*0.5, -0.35, 'SKM', ha='center', va='top',
+                color=EDGE_C, fontsize=6.5)
+
+    # Robot
+    if result.robot_cleaner:
+        rb = mpatches.Rectangle((pw*0.65, pl*0.6), 0.4, 0.25,
+            linewidth=1, edgecolor=MUTED_C, facecolor='#3a4870', zorder=3)
+        ax.add_patch(rb)
+        ax.text(pw*0.65 + 0.2, pl*0.6 + 0.12, 'ROBOT',
+                ha='center', va='center', color=WHITE_C, fontsize=5.5)
+
+    # Engine room
+    er_x0 = pw + gap
+    er_y0 = (pl - er_d) / 2
+    er_rect = mpatches.Rectangle((er_x0, er_y0), er_w, er_d,
+        linewidth=1.5, edgecolor=ER_EDG, facecolor=ER_C, zorder=2)
+    ax.add_patch(er_rect)
+    ax.text(er_x0 + er_w/2, er_y0 + er_d + 0.25, 'ENGINE ROOM',
+            ha='center', va='bottom', color=EDGE_C, fontsize=8, fontweight='bold')
+
+    # Equipment blocks in ER
+    equip = []
+    if result.filter:   equip.append(('Filter', result.filter.code[:8], EDGE_C))
+    if result.pump:     equip.append(('Pump', result.pump.code[:8], '#4dd9ec'))
+    if result.treatment:equip.append(('Treatment', result.treatment.code[:8], GOLD_C))
+    if result.heater:   equip.append(('Heater', result.heater.code[:8], GOLD_C))
+    if result.automation:equip.append(('Auto', result.automation.code[:8], ER_EDG))
+    if result.dehumidifier:equip.append(('Dehumid.', result.dehumidifier.code[:8], ER_EDG))
+
+    cols = 2
+    bw = (er_w - 0.4) / cols
+    bh = min(0.65, (er_d - 0.4) / max(3, math.ceil(len(equip)/cols)))
+    for i, (label, code, color) in enumerate(equip):
+        col = i % cols; row = i // cols
+        bx = er_x0 + 0.2 + col * bw
+        by = er_y0 + er_d - 0.2 - (row + 1) * bh
+        brect = mpatches.Rectangle((bx, by), bw - 0.1, bh - 0.05,
+            linewidth=1, edgecolor=color, facecolor='#0a1020', zorder=3)
+        ax.add_patch(brect)
+        ax.text(bx + (bw-0.1)/2, by + (bh-0.05)/2, label + '\n' + code,
+                ha='center', va='center', color=color, fontsize=5.5,
+                multialignment='center')
+
+    # Flow lines
+    drain_mid = (pw * 0.5, pl * 0.75)
+    er_in = (er_x0, er_y0 + er_d * 0.7)
+    ax.annotate('', xy=er_in, xytext=drain_mid,
+        arrowprops=dict(arrowstyle='->', color=EDGE_C, lw=1.2, linestyle='dashed'))
+    er_out = (er_x0, er_y0 + er_d * 0.3)
+    pool_ret = (0, pl * 0.3)
+    ax.annotate('', xy=pool_ret, xytext=er_out,
+        arrowprops=dict(arrowstyle='->', color=GOLD_C, lw=1.2, linestyle='dashed'))
+
+    # Dimension annotations
+    ax.annotate('', xy=(pw, pl + 0.6), xytext=(0, pl + 0.6),
+        arrowprops=dict(arrowstyle='<->', color=MUTED_C, lw=1))
+    ax.text(pw/2, pl + 0.75, f'{inp.width_m:.0f} m',
+            ha='center', va='bottom', color=MUTED_C, fontsize=7.5)
+    ax.annotate('', xy=(-0.6, pl), xytext=(-0.6, 0),
+        arrowprops=dict(arrowstyle='<->', color=MUTED_C, lw=1))
+    ax.text(-0.75, pl/2, f'{inp.length_m:.0f} m',
+            ha='right', va='center', color=MUTED_C, fontsize=7.5)
+
+    # Legend
+    legend_items = [
+        mpatches.Patch(color=DRAIN_C, label='Main Drain'),
+        mpatches.Patch(color='#34b5cc', label='Return Inlet'),
+        mpatches.Patch(color=LIGHT_C, label='LED Light'),
+        mpatches.Patch(color=EDGE_C, label='Suction flow'),
+        mpatches.Patch(color=GOLD_C, label='Return flow'),
+    ]
+    legend = ax.legend(handles=legend_items, loc='lower left',
+        framealpha=0.3, facecolor=ER_C, edgecolor=EDGE_C,
+        labelcolor=WHITE_C, fontsize=6.5)
+
+    # Title bar
+    pool_type_lbl = {'skimmer':'Skimmer','overflow':'Overflow','infinity':'Infinity Edge'}
+    filt_lbl = {'saltwater':'Saltwater','magnesium':'Magnesium','chlorine':'Chlorine'}
+    fig.text(0.01, 0.97,
+        f"MyPoolViewer  |  Pool Blueprint — Top View  |  "
+        f"{pool_type_lbl.get(inp.pool_type,inp.pool_type)}  "
+        f"{inp.width_m}x{inp.length_m}x{inp.depth_m}m  "
+        f"{filt_lbl.get(inp.filtration,inp.filtration)}  "
+        f"{result.volume_m3:.0f}m³  |  BOM: {len(result.bom)} items",
+        ha='left', va='top', color=MUTED_C, fontsize=7,
+        transform=fig.transFigure)
+
+    # Styling
+    ax.set_xlim(-1.2, pw + gap + er_w + 0.5)
+    ax.set_ylim(-0.8, pl + 1.2)
+    ax.set_aspect('equal')
+    ax.axis('off')
+    plt.tight_layout(pad=0.3)
+
+    buf2 = io.BytesIO()
+    fig.savefig(buf2, format='png', dpi=130, facecolor=BG_C,
+                bbox_inches='tight', pad_inches=0.1)
+    plt.close(fig)
+    buf2.seek(0)
+
+    png_data = buf2.getvalue()
+    from PIL import Image as PILImage
+    pil = PILImage.open(io.BytesIO(png_data))
+    aspect = pil.height / pil.width
+    img = RLImage(io.BytesIO(png_data), width=TW, height=TW * aspect)
+
+    story = [Spacer(1,10*mm), Paragraph("Pool Blueprint",s["h2"]),
+             Paragraph("Top-down annotated plan with pool components and engine room",s["muted"]),
+             _hr(0.4), Spacer(1,3*mm), img, PageBreak()]
+    return story
 
 def _iso_page(inp,result,s):
     from iso3d import render_iso
